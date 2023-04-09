@@ -1,0 +1,8 @@
+1. Update the users table to include an account_type column that stores the user's account type
+    (e.g., "free", "standard", "premium").
+2. Create a new table called playlists that stores information about playlists. 
+    The playlists table would need to have a primary key (id), a foreign key to the users 
+    table (user_id), and a name (name) column to store the name of the playlist.
+3. Create a new table called playlist_songs that stores information about the songs in each 
+    playlist. The playlist_songs table would need to have a primary key (id), a foreign key to the 
+    playlists table (playlist_id), a foreign key to the songs table (song_id), and an order column to store the order/rank of each song in the playlist.
